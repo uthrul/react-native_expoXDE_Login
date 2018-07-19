@@ -19,6 +19,11 @@ export default class Myform extends Component {
         <TouchableOpacity style={styles.buttonContainer}>
             <Text style={styles.buttontext}>Let's Go</Text>
         </TouchableOpacity>
+        <View>
+            <Text style={styles.buttontext}>
+                instagram @noize_code Product
+            </Text>
+        </View>
       </View>
     );
   }
@@ -37,6 +42,7 @@ const styles = StyleSheet.create({
     buttonContainer:{
         backgroundColor: '#27ae69',
         paddingVertical: 16,
+        marginBottom: 100,
     },
     buttontext:{
         textAlign: 'center',
